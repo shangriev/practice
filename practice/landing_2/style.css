@@ -48,15 +48,31 @@ header img {
 
 
 .info_sell {
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+
+.info_sell_bg {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 125px;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+    z-index: -1;
 }
 
 .info_sell h1{
+    text-align: center;
     font-family: 'Syne';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    text-shadow: -5px 5px 0px #FFFFFF;
+    text-shadow: -5px 5px 0px #ffffff;
     margin: 0 auto;
     margin-top: 117px;
     margin-bottom: 32px;
@@ -72,12 +88,50 @@ header img {
 
 
 .info_sell button {
+    font-family: 'Syne';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
     width: 114px;
     height: 52px;
     background: #532C59;
+    border: none;
     border-radius: 15px;
     color: #fff;
+    transition: background 0.2s linear;
     margin-bottom: 83px;
+    white-space: nowrap;
+}
+
+
+.info_sell button:hover {
+    background: #421e48;
+    cursor: pointer;
+    transition: background 0.2s linear;
+}
+
+.isellImg1 {
+    position: absolute;
+    top: 47px;
+    left: 67px;
+}
+
+.isellImg2 {
+    position: absolute;
+    top: 47px;
+    right: 156px;
+}
+
+.isellImg3 {
+    position: absolute;
+    bottom: -63px;
+    left: 47px;
+}
+
+.isellImg4 {
+    position: absolute;
+    bottom: -49px;
+    right: 67px;
 }
 
 
