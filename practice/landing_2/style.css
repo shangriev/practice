@@ -1,3 +1,41 @@
 body {
-    background: #ff2;
+    background: #fff;
+    height: 100%;
+    margin: 0 auto;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F8E0FB;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+    margin-right: 32px;
+}
+
+header img {
+    width: 151px;
+    height: 40px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.headerNavLeft {
+    margin: 28px 82px;
+}
+
+.headerNavRight {
+    margin: 28px 82px;
 }
