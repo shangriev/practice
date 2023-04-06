@@ -15,7 +15,7 @@ header {
     border-bottom: 1px solid #F8E0FB;
 }
 
-header a {
+.navHeader a {
     text-decoration: none;
     color: black;
     font-family: 'Space Grotesk';
@@ -23,6 +23,12 @@ header a {
     font-weight: 500;
     opacity: 0.5;
     margin-right: 32px;
+    white-space: nowrap;
+}
+
+.navHeader a:hover {
+    color: rgb(87, 87, 87);
+    opacity: 1;
 }
 
 header img {
@@ -33,9 +39,67 @@ header img {
 }
 
 .headerNavLeft {
-    margin: 28px 82px;
+    margin: 28px 70px;
 }
 
 .headerNavRight {
-    margin: 28px 82px;
+    margin: 28px 70px;
+}
+
+
+.info_sell {
+    text-align: center;
+}
+
+.info_sell h1{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: -5px 5px 0px #FFFFFF;
+    margin: 0 auto;
+    margin-top: 117px;
+    margin-bottom: 32px;
+}
+
+.info_sell p {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    color: #532C59;
+    margin-bottom: 32px;
+}
+
+
+.info_sell button {
+    width: 114px;
+    height: 52px;
+    background: #532C59;
+    border-radius: 15px;
+    color: #fff;
+    margin-bottom: 83px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1050px) {
+    
+
+
 }
