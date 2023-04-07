@@ -91,7 +91,6 @@ header img {
     font-family: 'Syne';
     font-size: 16px;
     font-weight: 700;
-    line-height: 20px;
     width: 114px;
     height: 52px;
     background: #532C59;
@@ -134,21 +133,70 @@ header img {
     right: 67px;
 }
 
+.brands {
 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 170px;
+    height: 40px;
 
+}
 
+.brands img {
+    margin-right: 40px;
+}
 
+.team {
+    text-align: center;
+    margin: auto;
+}
 
+.team h1 {
+    font-family: 'Syne';
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+}
 
+.team_info {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    color: #532C59;
+    margin-top: 24px;
+}
 
+.team_authors {
+    margin-top: 80px;
+}
 
+.team_name {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 12px;
+}
 
+.team_spec {
+    margin-top: 12px;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 14px;
+    color: #532C59;
+}
 
+.team_authors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-
+.team_block {
+    width: 301px;
+    height: 32px;
+}
 
 
 
