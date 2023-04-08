@@ -193,6 +193,7 @@ header img {
 .team_authors {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 160px;
 }
@@ -230,6 +231,7 @@ header img {
 
 .collection_holder {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 64px;
 }
@@ -279,6 +281,7 @@ header img {
     display: flex;
     justify-content: center;
     margin-bottom: 184px;
+    flex-wrap: wrap;
 }
 
 .feedback_cards {
@@ -289,6 +292,7 @@ header img {
 .feedback_sections {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .feedback {
@@ -354,6 +358,8 @@ header img {
 .faq {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 114px;
 }
 
 .faq_holder {
@@ -381,6 +387,7 @@ header img {
     font-size: 16px;
     line-height: 24px;
     color: #532C59;
+    padding-bottom: 32px;
 }
 
 .faq_card {
@@ -434,6 +441,7 @@ header img {
 .end {
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .end_sell {
@@ -446,6 +454,7 @@ header img {
     border: 1px solid #D6BCFA;
     box-shadow: inset 0px 0px 50px #F8E0FA;
     border-radius: 60px;
+    margin-right: 32px;
 }
 
 .end_title {
@@ -482,4 +491,40 @@ header img {
     color: #fff;
     transition: background 0.2s linear;
     white-space: nowrap;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+}
+
+.footer_block a {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    margin-right: 24px;
+}
+
+.footer_copyright {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin: auto 70px;
+    padding: 40px 0px;
+    border-top: 1px solid #CCD5DF;;
 }
