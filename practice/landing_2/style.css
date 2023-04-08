@@ -149,7 +149,7 @@ header img {
 
 .team {
     text-align: center;
-    margin: auto;
+    padding: 1px;
 }
 
 .team h1 {
@@ -176,7 +176,10 @@ header img {
     font-weight: 700;
     font-size: 24px;
     color: #000000;
-    margin-top: 12px;
+}
+
+.team_avatar {
+    margin-bottom: 12px;
 }
 
 .team_spec {
@@ -191,17 +194,99 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 160px;
 }
 
 .team_block {
     width: 301px;
-    height: 32px;
 }
 
 
-
-@media (max-width: 1050px) {
-    
-
-
+.information h1 {
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
 }
+
+.information p {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-bottom: 64px;
+}
+
+.collection_image {
+    margin-bottom: 16px;
+    width: 412px;
+    margin-right: 32px;
+}
+
+.collection_holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.collection_name {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.collection_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
+
+.info_title {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.info_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
+
+.info_holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 301px;
+    text-align: center;
+    margin-right: 32px;
+}
+
+.card img {
+    margin-bottom: 16px;
+}
+
