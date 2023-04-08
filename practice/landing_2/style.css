@@ -278,6 +278,21 @@ header img {
 .info_holder {
     display: flex;
     justify-content: center;
+    margin-bottom: 184px;
+}
+
+.feedback_cards {
+    margin-top: 80px;
+    margin-right: 32px;
+}
+
+.feedback_sections {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback {
+    margin-bottom: 80px;
 }
 
 .card {
@@ -290,3 +305,181 @@ header img {
     margin-bottom: 16px;
 }
 
+.feeduser {
+    margin-left: 8px;
+}
+
+.feedcard {
+    padding: 24px;
+    width: 412px;
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.feed_holder {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.username {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.userlink {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: -18px;
+}
+
+.feedback_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+}
+
+.faq_holder {
+    margin-right: 32px;
+}
+
+.faq_cards {
+    margin-right: 32px;
+}
+
+.faq_title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.faq_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+.faq_card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    width: 412px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.faq_card_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.faq_image {
+    position: absolute;
+    left: 91.33%;
+    top: 24.08%;
+}
+
+.faq_open_card_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+    margin-top: 12px;
+}
+
+.faq_card_bn {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    width: 412px;
+    border: 1px solid #d6bcfa00;
+    border-radius: 15px;
+}
+
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+.end_sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1300px;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+}
+
+.end_title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.end_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-bottom: 32px;
+}
+
+.end_sell button {
+    font-family: 'Syne';
+    font-size: 16px;
+    font-weight: 700;
+    width: 156px;
+    height: 52px;
+    background: #532C59;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    transition: background 0.2s linear;
+    white-space: nowrap;
+}
