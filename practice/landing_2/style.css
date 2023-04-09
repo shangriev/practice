@@ -416,6 +416,7 @@ header img {
     position: absolute;
     left: 91.33%;
     top: 24.08%;
+    cursor: pointer;
 }
 
 .faq_open_card_description {
