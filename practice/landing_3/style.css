@@ -6,6 +6,8 @@ body,
 
 header {
     position: relative;
+    height: 466px;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -22,6 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .header__title {
@@ -30,7 +33,6 @@ header {
     font-weight: 800;
     font-size: 50px;
     color: #FFFFFF;
-    margin-bottom: 52px;
 }
 
 .header__title span {
@@ -63,4 +65,46 @@ header {
 }
 
 
+.categories {
+    background: #ebebeb;
+}
 
+.categories__holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+
+.category:last-child {
+    margin-right: 0;
+}
+
+.category:hover {
+    background: #FFAB08;
+}
+
+.category__img {
+    margin-right: 8px;
+}
+
+
+.category__title a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
+}
