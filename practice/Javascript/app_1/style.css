@@ -1,0 +1,33 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.out-1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(0, 0, 0);
+}
