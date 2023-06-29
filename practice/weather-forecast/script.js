@@ -35,13 +35,9 @@ async function checkWeather(city) {
         }
     
         document.querySelector('.weather').style.display = 'block';
-
+        document.querySelector('.error').style.display = 'none';
+        } 
     }
-
-
-
-    
-}
 
     const search = searchBtn.addEventListener('click', searchFn);
     function searchFn() {
@@ -50,9 +46,9 @@ async function checkWeather(city) {
     }
 
 
-searchBox.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) { 
-    event.preventDefault();
-    searchFn();
-    }
-});
+    searchBox.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) { 
+        event.preventDefault();
+        searchFn();
+        }
+    });
